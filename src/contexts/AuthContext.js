@@ -1,6 +1,5 @@
 import { createContext, useEffect, useReducer } from "react";
 import apiService from "../app/apiService";
-import { type } from "@testing-library/user-event/dist/cjs/utility/type.js";
 import { isValidToken } from "../utils/jwt";
 import { useSelector } from "react-redux";
 

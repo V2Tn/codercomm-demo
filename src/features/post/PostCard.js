@@ -137,7 +137,7 @@ function PostCard({ post, userID }) {
         }
         action={
           <IconButton onClick={handleClick}>
-            <MoreVertIcon />
+            <MoreVertIcon loading={isLoading} />
           </IconButton>
         }
       />

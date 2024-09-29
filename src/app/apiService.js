@@ -1,6 +1,5 @@
 import axios from "axios";
 import { BASE_URL } from "./config";
-import { dark } from "@mui/material/styles/createPalette";
 
 const apiService = axios.create({
   baseURL: BASE_URL,
